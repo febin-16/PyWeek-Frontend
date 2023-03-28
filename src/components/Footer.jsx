@@ -9,7 +9,7 @@ const Footer = () => {
                 <p className=''>Contact Us</p>
                 <div className='flex flex-col'>
 
-                    <a href='http://wa.me/6282483670' target="_blank">Sanjay: +91 6282483670</a>
+                    <a href='http://wa.me/6282483670' target="_blank">Febin: +91 8590341906</a>
                     <a href='http://wa.me/9605627316' target="_blank">Deepak: +91 9605627316</a>
 
                 </div>
