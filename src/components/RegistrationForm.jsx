@@ -9,7 +9,7 @@ const validationSchema = Yup.object().shape({
   name: Yup.string().required("Name is required"),
   email: Yup.string().email("Invalid email").required("Email is required"),
   phone_number: Yup.string().required("Phone number is required"),
-  year: Yup.string().required("year is required"),
+  year: Yup.string().required("specify year in number"),
   branch: Yup.string().required("branch is required"),
 });
 
