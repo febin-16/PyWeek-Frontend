@@ -8,12 +8,15 @@ import Events from '../components/Events'
 
 function Home() {
   return (
-    <div className='w-full overflow-hidden h-auto bg-gradient-to-r from-blue-600 to-blue-900 '>
+    <div className='w-full overflow-hidden h-auto 
+    bg-gradient-to-r from-blue-900 to-gray-900 
+    '>
         <Header/>
-        <HeroSection/>
+        <HeroSection id={"reg_id"}/>
         <About/>
-        <AttendeeForm/>
-        <Events/>
+        <div id='reg_id'>
+          <AttendeeForm/>
+        </div>
         <Footer/>
     </div>
   )
