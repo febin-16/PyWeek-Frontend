@@ -15,7 +15,7 @@ function HeroSection({id}){
                     </div>
                     <div data-aos-duration="200" data-aos="fade-up"
                         className=' mt-4  md:mt-5 flex flex-col items-start text-white'>
-                        <h1 className='animate-pulse text-4xl md:text-10xl font-black font-font1'>PYWEEK 2.0</h1>
+                        <h1 className='animate-pulse text-4xl md:text-8xl font-black font-font1'>PYWEEK 2.0</h1>
                         <h2 className='text-xl lg:text-2xl font-semibold pt-6 uppercase font-font1'> <span className='text-white text-3xl md:text-4xl uppercase font-font1'>APRIL 3</span></h2>
                         <button className='bg-blue-900 hover:bg-blue-800 font-semibold rounded-md mt-10  px-4 py-1 z-[30]'
                            onClick={() => { if (id !== null) document.getElementById(id).scrollIntoView({ behavior: "smooth" }) }}
