@@ -73,7 +73,7 @@ function AttendeeForm({ eventId }) {
                   name="name"
                   className=" outline-none  rounded-md py-1 px-4 mt-2 w-full  text-black outline focus:outline-form-border  bg-white "
                 />
-                <ErrorMessage name="name" component="div" />
+                <ErrorMessage style={{ color: 'red' }} name="name" component="div" />
               </div>
               <div className="flex flex-col mt-4 items-start">
                 <label htmlFor="email" className=" mt-2 font-medium text-white">
@@ -84,7 +84,7 @@ function AttendeeForm({ eventId }) {
                   name="email"
                   className=" outline-none  rounded-md py-1 px-4 mt-2 w-full  text-black outline focus:outline-form-border  bg-white "
                 />
-                <ErrorMessage name="email" component="div" />
+                <ErrorMessage style={{ color: 'red' }} name="email" component="div" />
               </div>
               <div className="flex flex-col mt-4 items-start ">
                 <label
@@ -98,7 +98,7 @@ function AttendeeForm({ eventId }) {
                   name="phone_number"
                   className=" outline-none  rounded-md py-1 px-4 mt-2 w-full  text-black outline focus:outline-form-border  bg-white "
                 />
-                <ErrorMessage name="phone_number" component="div" />
+                <ErrorMessage style={{ color: 'red' }} name="phone_number" component="div" />
               </div>
               <div className="flex flex-col mt-4 items-start">
                 <label htmlFor="year" className=" mt-2 font-medium text-white">
@@ -109,7 +109,7 @@ function AttendeeForm({ eventId }) {
                   name="year"
                   className=" outline-none  rounded-md py-1 px-4 mt-2 w-full  text-black outline focus:outline-form-border  bg-white "
                 />
-                <ErrorMessage name="year" component="div" />
+                <ErrorMessage style={{ color: 'red' }} name="year" component="div" />
               </div>
               <div className="flex flex-col mt-4 items-start">
                 <label
@@ -123,7 +123,7 @@ function AttendeeForm({ eventId }) {
                   name="branch"
                   className=" outline-none  rounded-md py-1 px-4 mt-2 w-full  text-black outline focus:outline-form-border  bg-white "
                 />
-                <ErrorMessage name="branch" component="div" />
+                <ErrorMessage style={{ color: 'red' }} name="branch" component="div" />
               </div>
               <button
                 type="submit"
