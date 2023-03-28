@@ -5,7 +5,7 @@ function Header(){
   return (
     <div className='w-full h-32 bg-transparent md:px-10'>
          <div className=' h-20 px-6 space-x-12  flex flex-row justify-between'>
-            <img src={ieilogo} alt="" className='w-20 h-16 overflow-x-hidden mt-12' />
+            <button><a href='https://ieicsetkmce.in/'><img src={ieilogo} alt="" className='w-20 h-16 overflow-x-hidden mt-12' /></a></button>
             <img src={pylogo} alt="" className='w-10 h-10  md:w-10 md:h-10   overflow-x-hidden mt-12  ' />
         </div>
     </div>
