@@ -1,1 +1,1 @@
-export const BASE_URL='backend.ieicsetkmce.in/'
+export const BASE_URL = "https://backend.ieicsetkmce.in/";
