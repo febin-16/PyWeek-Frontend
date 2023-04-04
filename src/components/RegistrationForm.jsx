@@ -21,7 +21,7 @@ function AttendeeForm({ eventId }) {
       alert("Registration successful");
       resetForm();
     } catch (error) {
-      alert("Registration failed");
+      alert("Registration closed");
       console.log(error);
     } finally {
       setSubmitting(false);
